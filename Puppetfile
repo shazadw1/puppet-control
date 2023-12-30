@@ -16,7 +16,6 @@ forge 'https://forge.puppet.com'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
 
-sudo
 mod 'puppetlabs-apt', '9.2.0'
 mod 'puppetlabs-stdlib', '9.4.1'
 mod 'puppetlabs-ntp', '10.1.0'
