@@ -1,0 +1,11 @@
+[Unit]
+Description=Odoo Open Source ERP and CRM
+After=network.target
+
+[Service]
+Type=simple
+User=<%= @odoo_user %>
+ExecStart=/opt/<%= @odoo_user %>/odoo-bin -c /etc/<%= @odoo_user %>.conf
+
+[Install]
+WantedBy=default.target

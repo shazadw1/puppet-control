@@ -1,0 +1,19 @@
+---
+message: "This node is using common data"
+odoo_version: "17.0"
+odoo_port: "8069"
+pg_password: ""
+pgadmin_port: "5050"
+apache_https_port: "8443"
+GITHUB_USERNAME: "shazadw1"
+users_and_keys:
+  waseem:
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQ..."
+  kal:
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA..."
+allowed_ips:
+  - "95.149.154.194"
+  - "82.23.184.194"
+  - "86.31.225.220"
+allowed_fqdns:
+  - "sysop.adaplo.co.uk"
