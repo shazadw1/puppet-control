@@ -23,6 +23,8 @@ mod 'ghoneycutt-timezone', '4.0.0'
 mod 'tomkrieger-sshkeymgmt', '1.1.0'
 mod 'edgej-filepath', '1.1.0'
 mod 'initforthe-users', '0.3.0'
+mod 'opuscodium-odoo', '3.0.2'
+
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
